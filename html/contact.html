@@ -72,108 +72,43 @@
 <!--主体内容-->
 <main class="trunk" role="main">
   <div class="container container-fluid">
-    <!--横幅海报-->
-    <section id="J_PosterCarousel" class="carousel slide poster-carousel" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#J_PosterCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#J_PosterCarousel" data-slide-to="1"></li>
-        <li data-target="#J_PosterCarousel" data-slide-to="2"></li>
-        <li data-target="#J_PosterCarousel" data-slide-to="3"></li>
-        <li data-target="#J_PosterCarousel" data-slide-to="4"></li>
-      </ol>
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <a href="#">
-            <img src="app/img/banner_1.jpg" alt="banner_1">
-          </a>
-        </div>
-        <div class="item">
-          <a href="#">
-            <img src="app/img/banner_2.jpg" alt="banner_2">
-          </a>
-        </div>
-        <div class="item">
-          <a href="#">
-            <img src="app/img/banner_3.jpg" alt="banner_3">
-          </a>
-        </div>
-        <div class="item">
-          <a href="#">
-            <img src="app/img/banner_4.jpg" alt="banner_4">
-          </a>
-        </div>
-        <div class="item">
-          <a href="#">
-            <img src="app/img/banner_5.jpg" alt="banner_5">
-          </a>
-        </div>
-      </div>
-      <!-- Controls -->
-      <a class="left carousel-control" href="#J_PosterCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">上一张</span>
-      </a>
-      <a class="right carousel-control" href="#J_PosterCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">下一张</span>
-      </a>
-    </section>
-    <!--/滚屏横幅-->
-
-    <!--信息发布-->
-    <section class="p-posts">
+    <!--详情-->
+    <section class="p-contact">
       <header class="section-header">
+        <h5 class="sub-title">我们等着你！</h5>
+
         <div class="title-with-sep">
-          <h1 class="title">TODAY'S DESIGN</h1>
+          <h1 class="title">CONTACT US</h1>
         </div>
-        <h4 class="sub-title">FORM BEYOND FUNCTION</h4>
       </header>
-      <div class="row">
-        <article class="col-xs-6">
-          <div class="thumbnail">
-            <figure class="picture">
-              <a href="generic.html">
-                <img src="app/img/post_1.jpg" class="img-responsive" alt="post_1">
-              </a>
-            </figure>
+      <article class="section-body">
+        <p>
+          Would you like to contact us? Please send us mail using the provided form! Due to extraordinary email volumes,
+          we cannot respond to all emails, but rest assured that all emails will be read.
+        </p>
 
-            <div class="caption">
-              <h6 class="sub-title">ACCESSORIES & FASHION, PRODUCT DESIGNDECEMBER 2, 2015</h6>
-              <a href="#">
-                <h4 class="title">SPONTANEOUS FASHION STATEMENTS</h4>
-              </a>
-
-              <p>Transform this 3D printed collection of 4 shoes from flats to high-heels in seconds! The design, known
-                as
-                HEEL2, utilizes a series of hinged,…</p>
-            </div>
+        <form>
+          <div class="form-group form-group-lg">
+            <label for="cname">姓名（必填）</label>
+            <input type="text" class="form-control" id="cname" placeholder="姓名">
           </div>
-        </article>
-        <article class="col-xs-6">
-          <div class="thumbnail">
-            <figure class="picture">
-              <a href="#">
-                <img src="app/img/post_2.jpg" class="img-responsive" alt="post_2">
-              </a>
-            </figure>
-
-            <div class="caption">
-              <h6 class="sub-title">BOOKS, OFFICE, PRODUCT DESIGN, TECHNOLOGYDECEMBER 2, 2015</h6>
-              <a href="#">
-                <h4 class="title">RODEO FOR BOOKS</h4>
-              </a>
-
-              <p>My design mentor has a brilliant saying. Find the frustration and hack it. You know how annoying it is
-                to
-                scan books. Especially fat…</p>
-            </div>
+          <div class="form-group form-group-lg">
+            <label for="cemail">电子邮箱（必填）</label>
+            <input type="email" class="form-control" id="cemail" placeholder="电子邮箱">
           </div>
-        </article>
-      </div>
+          <div class="form-group form-group-lg">
+            <label for="csubject">主题</label>
+            <input type="text" class="form-control" id="csubject" placeholder="主题">
+          </div>
+          <div class="form-group form-group-lg">
+            <label for="cmessage">内容</label>
+            <textarea id="cmessage" class="form-control" rows="8" placeholder="内容"></textarea>
+          </div>
+          <button type="submit" class="btn btn-default">提 交</button>
+        </form>
+      </article>
     </section>
-    <!--/信息发布-->
+    <!--/详情-->
   </div>
 </main>
 <!--/主体内容-->

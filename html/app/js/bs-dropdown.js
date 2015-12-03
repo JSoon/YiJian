@@ -9,6 +9,18 @@
         dropdown = $(ele);
 
     /**
+     * 允许下拉开关超链接默认跳转
+     */
+    that.allowDefault = function () {
+      var a = dropdown.children(':first-child'),
+          href = a.attr('href');
+      a.on('click', function () {
+        w.location.href = href;
+      });
+      return this;
+    };
+
+    /**
      * 通过hover触发下拉事件
      */
     that.openByHover = function () {
@@ -18,6 +30,7 @@
           function () {
             $(this).removeClass('open');
           });
+      return this;
     };
 
     return that;
