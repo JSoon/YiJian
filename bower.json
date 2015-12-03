@@ -1,0 +1,23 @@
+{
+  "name": "YiJian",
+  "description": "YiJian",
+  "version": "1.0.0",
+  "authors": [
+    "jsoon"
+  ],
+  "license": "jsoon",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1",
+    "bootstrap": "~3",
+    "font-awesome": "fontawesome#~4.5.0",
+    "animate.css": "animate-css#~3.4.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

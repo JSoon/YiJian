@@ -1,0 +1,263 @@
+@media (min-width: 1200px) {
+  /* line 6, /Users/Soon/Work/一见/html/app/less/media.less */
+  .container {
+    width: 1050px;
+  }
+}
+/* line 6, /Users/Soon/Work/一见/html/app/less/bootstrap.less */
+.navbar {
+  background-color: #000;
+  border-bottom: none;
+}
+/* line 9, /Users/Soon/Work/一见/html/app/less/bootstrap.less */
+.navbar .dropdown-menu {
+  border: none;
+  border-radius: 0;
+  background-color: #000;
+}
+/* line 14, /Users/Soon/Work/一见/html/app/less/bootstrap.less */
+.navbar .dropdown-menu > li > a:hover,
+.navbar .dropdown-menu > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+/* line 20, /Users/Soon/Work/一见/html/app/less/bootstrap.less */
+.navbar .dropdown-menu .divider {
+  background-color: #333;
+}
+/* line 27, /Users/Soon/Work/一见/html/app/less/bootstrap.less */
+.navbar-default .navbar-nav > li {
+  border-right: 1px solid #333;
+}
+/* line 29, /Users/Soon/Work/一见/html/app/less/bootstrap.less */
+.navbar-default .navbar-nav > li:first-child {
+  border-left: 1px solid #333;
+}
+/* line 32, /Users/Soon/Work/一见/html/app/less/bootstrap.less */
+.navbar-default .navbar-nav > li > a {
+  font-weight: lighter;
+  color: #8c919b;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+/* line 37, /Users/Soon/Work/一见/html/app/less/bootstrap.less */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
+/* line 43, /Users/Soon/Work/一见/html/app/less/bootstrap.less */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+/* line 52, /Users/Soon/Work/一见/html/app/less/bootstrap.less */
+.thumbnail {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+/* line 8, /Users/Soon/Work/一见/html/app/less/global.less */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: serif, 'Lantinghei SC', 'Microsoft YaHei', STHeiti, SimSun;
+  -webkit-font-smoothing: antialiased;
+  color: #444;
+  line-height: 1.5;
+}
+/* line 18, /Users/Soon/Work/一见/html/app/less/global.less */
+a,
+a:hover,
+a:focus {
+  color: #444;
+}
+/* line 25, /Users/Soon/Work/一见/html/app/less/global.less */
+.crown {
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+/* line 31, /Users/Soon/Work/一见/html/app/less/global.less */
+.navbar {
+  font-family: "Oswald";
+  font-size: 12px;
+}
+/* line 35, /Users/Soon/Work/一见/html/app/less/global.less */
+.navbar .dropdown-menu > li > a {
+  font-weight: lighter;
+  color: #8c919b;
+  letter-spacing: 0.1em;
+}
+/* line 41, /Users/Soon/Work/一见/html/app/less/global.less */
+.navbar .social-share {
+  font-size: 16px;
+}
+/* line 43, /Users/Soon/Work/一见/html/app/less/global.less */
+.navbar .social-share .social-share-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  padding: 0;
+  transition: all .2s;
+}
+/* line 51, /Users/Soon/Work/一见/html/app/less/global.less */
+.navbar .social-share .social-share-link:hover,
+.navbar .social-share .social-share-link:focus {
+  font-size: 20px;
+}
+/* line 61, /Users/Soon/Work/一见/html/app/less/global.less */
+.branding .logo img {
+  width: 232.5px;
+}
+/* line 67, /Users/Soon/Work/一见/html/app/less/global.less */
+.section-header {
+  margin-bottom: 30px;
+  font-family: Oswald;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+/* line 72, /Users/Soon/Work/一见/html/app/less/global.less */
+.section-header .title-with-sep {
+  background: url("../img/section-header-sep.gif") repeat-x 50%;
+}
+/* line 75, /Users/Soon/Work/一见/html/app/less/global.less */
+.section-header .title {
+  display: inline-block;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 1.5;
+  background-color: #fff;
+}
+/* line 84, /Users/Soon/Work/一见/html/app/less/global.less */
+.section-header .sub-title {
+  display: inline-block;
+  margin: 0;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 1.5;
+  color: #8c919b;
+}
+/* line 95, /Users/Soon/Work/一见/html/app/less/global.less */
+.root {
+  color: #8c919b;
+}
+/* line 97, /Users/Soon/Work/一见/html/app/less/global.less */
+.root .about-site {
+  padding: 30px 0;
+  background-color: #242628;
+}
+/* line 100, /Users/Soon/Work/一见/html/app/less/global.less */
+.root .about-site .title {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+/* line 106, /Users/Soon/Work/一见/html/app/less/global.less */
+.root .about-site p {
+  margin: 20px 20% 10px;
+}
+/* line 110, /Users/Soon/Work/一见/html/app/less/global.less */
+.root .social-share {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+}
+/* line 119, /Users/Soon/Work/一见/html/app/less/global.less */
+.root .social-share li {
+  display: inline-block;
+}
+/* line 123, /Users/Soon/Work/一见/html/app/less/global.less */
+.root .social-share-link {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  padding: 0;
+  color: #8c919b;
+  transition: all .2s;
+}
+/* line 133, /Users/Soon/Work/一见/html/app/less/global.less */
+.root .social-share-link:hover,
+.root .social-share-link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 139, /Users/Soon/Work/一见/html/app/less/global.less */
+.root .copyright {
+  padding: 15px 0;
+  font-size: 12px;
+  background-color: #222;
+}
+/* line 143, /Users/Soon/Work/一见/html/app/less/global.less */
+.root .copyright a {
+  color: #8c919b;
+}
+/* line 7, /Users/Soon/Work/一见/html/app/less/style.less */
+.poster-carousel {
+  max-height: 600px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+/* line 11, /Users/Soon/Work/一见/html/app/less/style.less */
+.poster-carousel .item img {
+  transition: all .5s ease;
+}
+/* line 13, /Users/Soon/Work/一见/html/app/less/style.less */
+.poster-carousel .item img:hover,
+.poster-carousel .item img:focus {
+  opacity: .6;
+}
+/* line 21, /Users/Soon/Work/一见/html/app/less/style.less */
+.posts {
+  margin-bottom: 30px;
+}
+/* line 23, /Users/Soon/Work/一见/html/app/less/style.less */
+.posts figure.picture {
+  background-color: #71bad5;
+  overflow: hidden;
+}
+/* line 27, /Users/Soon/Work/一见/html/app/less/style.less */
+.posts .thumbnail {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #000;
+  text-align: center;
+}
+/* line 31, /Users/Soon/Work/一见/html/app/less/style.less */
+.posts .thumbnail img {
+  transition: all .5s ease;
+}
+/* line 33, /Users/Soon/Work/一见/html/app/less/style.less */
+.posts .thumbnail img:hover,
+.posts .thumbnail img:focus {
+  opacity: .6;
+  transform: scale(1.02);
+}
+/* line 39, /Users/Soon/Work/一见/html/app/less/style.less */
+.posts .thumbnail .title {
+  display: block;
+  margin: 10px 0 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* line 45, /Users/Soon/Work/一见/html/app/less/style.less */
+.posts .thumbnail .sub-title {
+  display: block;
+  font-size: 12px;
+  color: #8c919b;
+}
+/* line 50, /Users/Soon/Work/一见/html/app/less/style.less */
+.posts .thumbnail p {
+  margin: 0;
+}

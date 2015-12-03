@@ -1,0 +1,148 @@
+//
+// 全局公用样式表
+//
+@import "media";
+@import "bootstrap";
+
+// HTML标签
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: serif, 'Lantinghei SC', 'Microsoft YaHei', STHeiti, SimSun;
+  -webkit-font-smoothing: antialiased;
+  color: #444;
+  line-height: 1.5;
+}
+
+a,
+a:hover,
+a:focus {
+  color: #444;
+}
+
+// 页头
+.crown {
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+
+// 顶部导航
+.navbar {
+  font-family: "Oswald";
+  font-size: 12px;
+  .dropdown-menu {
+    > li > a {
+      font-weight: lighter;
+      color: #8c919b;
+      letter-spacing: 0.1em;
+    }
+  }
+  .social-share {
+    font-size: 16px;
+    .social-share-link {
+      display: block;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      padding: 0;
+      transition: all .2s;
+      &:hover,
+      &:focus {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+// LOGO
+.branding {
+  .logo img {
+    width: 232.5px;
+  }
+}
+
+// 页面标题
+.section-header {
+  margin-bottom: 30px;
+  font-family: Oswald;
+  text-align: center;
+  letter-spacing: 0.1em;
+  .title-with-sep {
+    background: url("../img/section-header-sep.gif") repeat-x 50%;
+  }
+  .title {
+    display: inline-block;
+    margin: 0;
+    padding: 0 20px;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.5;
+    background-color: #fff;
+  }
+  .sub-title {
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.5;
+    color: #8c919b;
+  }
+}
+
+// 页尾
+.root {
+  color: #8c919b;
+  .about-site {
+    padding: 30px 0;
+    background-color: #242628;
+    .title {
+      display: block;
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+    }
+    p {
+      margin: 20px 20% 10px;
+    }
+  }
+  .social-share {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    // weird hack to remove the gap between inline-block elements,
+    // may cause some issues unexpected
+    font-size: 0;
+    text-align: center;
+    li {
+      display: inline-block;
+    }
+  }
+  .social-share-link {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0;
+    color: #8c919b;
+    transition: all .2s;
+    &:hover,
+    &:focus {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  .copyright {
+    padding: 15px 0;
+    font-size: 12px;
+    background-color: #222;
+    a {
+      color: #8c919b;
+    }
+  }
+}
+
