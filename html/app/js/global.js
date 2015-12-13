@@ -14,6 +14,6 @@
   bottomSocial.initTooltip({
     placement: 'top'
   });
-  topSubNav.openByHover().allowDefault();
+  topSubNav.openByHover();
 
 }(jQuery, window));
