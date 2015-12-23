@@ -11,7 +11,8 @@
     "jquery": "~1",
     "bootstrap": "~3",
     "font-awesome": "fontawesome#~4.5.0",
-    "animate.css": "animate-css#~3.4.0"
+    "animate.css": "animate-css#~3.4.0",
+    "waterfall": "~1.0.2"
   },
   "ignore": [
     "**/.*",
