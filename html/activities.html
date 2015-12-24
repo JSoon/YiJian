@@ -86,8 +86,8 @@
           <h1 class="title">活动预告</h1>
         </div>
       </header>
-      <div id="J_Waterfall">
-        <div class="item col-xs-3">
+      <div id="J_Waterfall" class="row">
+        <div class="grid-item col-xs-3">
           <div class="thumbnail">
             <figure class="picture">
               <a href="generic.html">
@@ -105,7 +105,7 @@
             </div>
           </div>
         </div>
-        <div class="item col-xs-3">
+        <div class="grid-item col-xs-3">
           <div class="thumbnail">
             <figure class="picture">
               <a href="#">
@@ -123,7 +123,7 @@
             </div>
           </div>
         </div>
-        <div class="item col-xs-3">
+        <div class="grid-item col-xs-3">
           <div class="thumbnail">
             <figure class="picture">
               <a href="generic.html">
@@ -141,7 +141,7 @@
             </div>
           </div>
         </div>
-        <div class="item col-xs-3">
+        <div class="grid-item col-xs-3">
           <div class="thumbnail">
             <figure class="picture">
               <a href="#">
@@ -159,7 +159,7 @@
             </div>
           </div>
         </div>
-        <div class="item col-xs-3">
+        <div class="grid-item col-xs-3">
           <div class="thumbnail">
             <figure class="picture">
               <a href="#">
@@ -177,7 +177,7 @@
             </div>
           </div>
         </div>
-        <div class="item col-xs-3">
+        <div class="grid-item col-xs-3">
           <div class="thumbnail">
             <figure class="picture">
               <a href="#">
@@ -195,7 +195,7 @@
             </div>
           </div>
         </div>
-        <div class="item col-xs-3">
+        <div class="grid-item col-xs-3">
           <div class="thumbnail">
             <figure class="picture">
               <a href="#">
@@ -213,7 +213,7 @@
             </div>
           </div>
         </div>
-        <div class="item col-xs-3">
+        <div class="grid-item col-xs-3">
           <div class="thumbnail">
             <figure class="picture">
               <a href="#">
@@ -288,13 +288,21 @@
 <!-- Third-party -->
 <script src="lib/jquery/1.11.3/jquery.js"></script>
 <script src="lib/bootstrap/3.3.6/js/bootstrap.js"></script>
-<script src="lib/waterfall/1.0.2/waterfall.js"></script>
+<script src="lib/masonry/3.3.2/masonry.pkgd.js"></script>
+<script src="lib/imagesloaded/3.2.0/imagesloaded.pkgd.js"></script>
 <!--Custom-->
 <script src="app/js/social-share.js"></script>
 <script src="app/js/bs-dropdown.js"></script>
 <script src="app/js/global.js"></script>
 <script>
-  waterfall('#J_Waterfall');
+  (function () {
+    // 瀑布流布局
+    var wf = $('#J_Waterfall').imagesLoaded(function () {
+      wf.masonry({
+        itemSelector: '.grid-item'
+      });
+    });
+  })();
 </script>
 </body>
 </html>
