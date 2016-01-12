@@ -59,7 +59,6 @@
 }
 /* line 58, /Users/Soon/Work/一见/html/app/less/bootstrap.less */
 .form-control {
-  padding: 10px !important;
   border: 1px solid #ccc !important;
   border-radius: 0 !important;
 }
@@ -105,7 +104,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: serif, 'Lantinghei SC', 'Microsoft YaHei', STHeiti, SimSun;
+  font-family: 'Lantinghei SC', 'Microsoft YaHei', STHeiti, SimSun, serif;
   -webkit-font-smoothing: antialiased;
   font-size: 13px;
   color: #444;
@@ -145,7 +144,7 @@ a:focus {
 }
 /* line 53, /Users/Soon/Work/一见/html/app/less/global.less */
 .root .about-site .form-control {
-  background-color: #000000;
+  background-color: #000;
 }
 /* line 56, /Users/Soon/Work/一见/html/app/less/global.less */
 .root .about-site .title {
@@ -324,20 +323,19 @@ a:focus {
 .section-body .title {
   margin-bottom: 30px;
   font-weight: normal;
-  font-style: italic;
 }
-/* line 227, /Users/Soon/Work/一见/html/app/less/global.less */
+/* line 226, /Users/Soon/Work/一见/html/app/less/global.less */
 .section-body p {
   margin-bottom: 30px;
   font-size: 16px;
 }
-/* line 231, /Users/Soon/Work/一见/html/app/less/global.less */
+/* line 230, /Users/Soon/Work/一见/html/app/less/global.less */
 .section-body embed {
   width: 100%;
   min-height: 600px;
   height: auto;
 }
-/* line 240, /Users/Soon/Work/一见/html/app/less/global.less */
+/* line 239, /Users/Soon/Work/一见/html/app/less/global.less */
 .comments .media {
   margin-bottom: 20px;
   padding: 15px;
@@ -346,11 +344,11 @@ a:focus {
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-/* line 248, /Users/Soon/Work/一见/html/app/less/global.less */
+/* line 247, /Users/Soon/Work/一见/html/app/less/global.less */
 .comments .media-heading {
   margin-bottom: .7em;
 }
-/* line 250, /Users/Soon/Work/一见/html/app/less/global.less */
+/* line 249, /Users/Soon/Work/一见/html/app/less/global.less */
 .comments .media-heading small {
   margin-left: .7em;
 }
@@ -473,40 +471,58 @@ a:focus {
   color: #bbb;
   line-height: 24px;
 }
-/* line 97, /Users/Soon/Work/一见/html/app/less/style.less */
-.p-posts figure.picture,
-.p-videos figure.picture {
+/* line 98, /Users/Soon/Work/一见/html/app/less/style.less */
+.p-posts figure.picture img,
+.p-videos figure.picture img {
+  width: 100%;
   height: 330px;
 }
-/* line 104, /Users/Soon/Work/一见/html/app/less/style.less */
+/* line 107, /Users/Soon/Work/一见/html/app/less/style.less */
 .p-contact .form-group {
   margin-bottom: 30px;
 }
-/* line 111, /Users/Soon/Work/一见/html/app/less/style.less */
+/* line 110, /Users/Soon/Work/一见/html/app/less/style.less */
+.p-contact b {
+  display: inline-block;
+  width: 3em;
+  font-weight: normal;
+  vertical-align: middle;
+}
+/* line 116, /Users/Soon/Work/一见/html/app/less/style.less */
+.p-contact span {
+  vertical-align: middle;
+}
+/* line 119, /Users/Soon/Work/一见/html/app/less/style.less */
+.p-contact .label {
+  margin-left: 2px;
+  padding: 2px 5px;
+  vertical-align: middle;
+}
+/* line 128, /Users/Soon/Work/一见/html/app/less/style.less */
 .p-about .media {
   margin-bottom: 30px;
 }
-/* line 114, /Users/Soon/Work/一见/html/app/less/style.less */
+/* line 131, /Users/Soon/Work/一见/html/app/less/style.less */
 .p-about .media-left {
   width: 40%;
   padding-right: 20px;
 }
-/* line 118, /Users/Soon/Work/一见/html/app/less/style.less */
+/* line 135, /Users/Soon/Work/一见/html/app/less/style.less */
 .p-about .media-body {
   padding: 6px 0;
 }
-/* line 121, /Users/Soon/Work/一见/html/app/less/style.less */
+/* line 138, /Users/Soon/Work/一见/html/app/less/style.less */
 .p-about .media-heading {
   margin-bottom: 15px;
 }
-/* line 124, /Users/Soon/Work/一见/html/app/less/style.less */
+/* line 141, /Users/Soon/Work/一见/html/app/less/style.less */
 .p-about .media-sub-heading {
   margin-top: 0;
   margin-bottom: 6px;
   color: #999;
   font-weight: normal;
 }
-/* line 130, /Users/Soon/Work/一见/html/app/less/style.less */
+/* line 147, /Users/Soon/Work/一见/html/app/less/style.less */
 .p-about .email {
   margin-top: 10px;
 }
